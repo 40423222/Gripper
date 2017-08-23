@@ -1,5 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/gripper.atom.xml" rel="self"></link><id>./</id><updated>2017-08-16T18:04:00+08:00</updated><entry><title>資訊</title><link href="./Information.html" rel="alternate"></link><published>2017-08-16T18:04:00+08:00</published><updated>2017-08-16T18:04:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-16:./Information.html</id><summary type="html">&lt;p&gt;了解夾爪&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/gripper.atom.xml" rel="self"></link><id>./</id><updated>2017-08-24T02:14:00+08:00</updated><entry><title>夾持物品的種類</title><link href="./Gripper%20species.html" rel="alternate"></link><published>2017-08-24T02:14:00+08:00</published><updated>2017-08-24T02:14:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-24:./Gripper species.html</id><summary type="html">&lt;p&gt;各種夾爪的內容&lt;/p&gt;
+
+
+&lt;!-- 各種夾爪的內容 --&gt;
+
+&lt;h3&gt;friction gripper 摩擦夾爪:&lt;/h3&gt;
+&lt;p&gt;macro meso micro&lt;br&gt;
+原理: 利用夾爪表面的磨擦係數&lt;br&gt;
+夾持材質: 大多都是塑膠製品&lt;br&gt;
+夾持重量: 在影片中為10公斤以下&lt;br&gt;
+接觸外表: 表面有弧度的物品(增加接觸面積)&lt;br&gt;
+夾持物品的種類: 有弧度的塑膠製品,重量小於10公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/deHQfqFjkeM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;jaw gripper 颚夹:&lt;/h3&gt;
+&lt;p&gt;macro meso micro&lt;br&gt;
+類型: 平行爪(兩爪)&lt;br&gt;
+原理:  利用夾爪表面摩擦係數 加上 夾爪向內的力量&lt;br&gt;
+夾持材質: 非液體&lt;br&gt;
+夾持重量: 1公斤以下 (可能兩爪的摩擦力小)&lt;br&gt;
+接觸外表: 圓弧&lt;br&gt;
+夾持物品的種類: 圓弧的固體,1公斤以下&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/HWccHycpueM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/N_TCRrFjx44" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;......................................................................................................................................&lt;/p&gt;
+&lt;p&gt;類型: 三爪&lt;br&gt;
+原理: 利用夾爪表面摩擦係數 加上 夾爪向內的力量&lt;br&gt;
+夾持材質: 金屬&lt;br&gt;
+夾持重量: 人力無法移動(約300公斤)&lt;br&gt;
+接觸外表: 圓管&lt;br&gt;
+夾持物品的種類: 金屬圓管,重量300公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ErqNO3F5U78" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LgKZaHUHa8E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;needle Gripper 針夾爪:&lt;/h3&gt;
+&lt;p&gt;micro&lt;br&gt;
+原理: 用細針爪住物品&lt;br&gt;
+夾持材質: 布料&lt;br&gt;
+夾持重量: 1公斤以下(防止布料拉破)&lt;br&gt;
+接觸外表: 平面&lt;br&gt;
+夾持物品的種類: 平整布料,重量小於1公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tR8j9jNzB2Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;magnetic gripper 磁力夾爪:&lt;/h3&gt;
+&lt;p&gt;macro meso micro&lt;br&gt;
+原理: 在夾爪上通電產生磁力&lt;br&gt;
+夾持材質: 帶磁性&lt;br&gt;
+夾持重量: 約40~100公斤&lt;br&gt;
+接觸外表: 平面&lt;br&gt;
+夾持物品的種類: 表面平帶磁性,重量40~100公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/KQHkFx49e2E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/l5kxfhZtKlI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;suction gripper 抽吸夾爪:&lt;/h3&gt;
+&lt;p&gt;macro meso micro&lt;br&gt;
+原理: 利用真空吸盤(會將吸盤內的空氣吸光)&lt;br&gt;
+夾持材質: 表面光滑(金屬或塑膠)&lt;br&gt;
+夾持重量: 10公斤以下&lt;br&gt;
+接觸外表: 平面(可有小彎曲)&lt;br&gt;
+夾持物品的種類: 表面不複雜的光滑製品,重量10公斤以下&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1F9RT8OjHWE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lzyl2M-IaqE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;bernoulli gripper 伯努利夾爪:&lt;/h3&gt;
+&lt;p&gt;meso micro&lt;br&gt;
+原理: 氣體流動&lt;br&gt;
+夾持材質: 非液體&lt;br&gt;
+夾持重量: 1公斤以下&lt;br&gt;
+接觸外表: 平面&lt;br&gt;
+夾持物品的種類: 平面固體,重量小於1公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/phSlc8B4kFo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;electrostatic gripper 靜電夾爪:&lt;/h3&gt;
+&lt;p&gt;meso micro&lt;br&gt;
+原理: 靜電控制夾爪&lt;br&gt;
+夾持材質: 非液體&lt;br&gt;
+夾持重量: 3公斤以下&lt;br&gt;
+接觸外表: 小於夾爪&lt;br&gt;
+夾持物品的種類: 體積小於夾爪的固體,重量小於3公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0DgORq2bbTI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;laser gripper 積光夾爪:&lt;/h3&gt;
+&lt;p&gt;micro&lt;br&gt;
+原理: 利用積光燒結出夾爪&lt;br&gt;
+夾持材質: 不確定&lt;br&gt;
+夾持重量: 10公斤以下&lt;br&gt;
+接觸外表: 應夾爪形狀而定&lt;br&gt;
+夾持物品的種類: 可夾持多種形狀,重量10公斤以下&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2ZoSF-IPzSo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Universal Robot Gripper 萬能爪:&lt;/h3&gt;
+&lt;p&gt;原理: 利用氣體控制夾爪外型 跟 夾爪表面摩擦力&lt;br&gt;
+夾持材質: 非液體&lt;br&gt;
+夾持重量: 1公斤以下&lt;br&gt;
+接觸外表: 體型小於夾爪&lt;br&gt;
+夾持物品的種類: 體積小於夾爪的固體,重量小於1公斤&lt;br&gt;
+影片: &lt;br&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3OjhoVuAQkQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Gripper species"></category></entry><entry><title>資訊</title><link href="./Information.html" rel="alternate"></link><published>2017-08-16T18:04:00+08:00</published><updated>2017-08-16T18:04:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-16:./Information.html</id><summary type="html">&lt;p&gt;了解夾爪&lt;/p&gt;
 
 
 &lt;h2&gt;基本說明:&lt;/h2&gt;
