@@ -1,0 +1,146 @@
+§¨¤ö:
+
+§ìªº­ì²z:
+
+friction gripper ¼¯À¿§¨¤ö
+macro meso micro
+
+jaw gripper ??
+macro meso micro
+
+needle Gripper °w§¨¤ö
+micro
+
+magnetic gripper ºÏ¤O§¨¤ö
+macro meso micro
+
+suction gripper ©â§l§¨¤ö
+macro meso micro
+
+bernoulli gripper §B§V§Q§¨¤ö
+meso micro
+
+adhesive gripper Öß¦X??¨ã
+micro
+
+liquid solid transition gipper §ä­^¤å¸ê®Æ
+macro meso micro
+
+electrostatic gripper ÀR¹q§¨¤ö
+meso micro
+
+van der waals gripper §ä­^¤å¸ê®Æ
+meso micro
+
+acoustic gripper Ánªi§¨¤ö
+macro meso micro
+
+laser gripper ¿n¥ú§¨¤ö
+micro
+
+
+
+¹Ïªí:
+
+robot grippers and hands ¾÷¾¹§¨¤ö¸ò¤â
+
+passive ³Q°Ê
+active ¬¡©Ê
+
+nonprehensile ¤£¯à§ìªº
+
+vacuum ¯uªÅ
+electromagnetic ¹qºÏ
+bernoulli §B§V§Q
+.....
+
+wrap ¥]
+
+bladder »H¯Ö
+linkages ³sµ²
+....
+
+pinch ®º
+
+2 or 3 fingers ¤â«ü
+parallel or angular motion ¥­¦æ©Î¨¤??
+fingertip styles: flat, V..... «üµ§: ¥­­±, V....
+
+pinch ®º
+
+number of fingers ¤â«ü¼Æ
+degrees of freedom ¦Û¥Ñµ{«×
+control force and/or control motion ±±¨î¤O ©M/©Î ±±¨î¹B°Ê
+
+hybrid types ²V¦X«¬
+(e.g., magnetic particles in rubber bladder)...
+(¨Ò¦p: ¨Ò¦p¡A¾ó?Ån¤¤ªººÏ©Ê?²É¡^...
+
+
+Holding/Gripping Mechanism ´¤«ù/§ì´¤¾÷¨î
+
+1.Mechanical grippers ¾÷±ñ¤ö
+2.Non-prehenile Grippers(«D§ì´¤¦¡)
+3.Hybrid Grippers ²V¦X§¨¤ö
+4.Robot Arms ¾÷¾¹¤HªZ¾¹
+5.Dual arm robot/Manipulator ÂùÁu ¾÷¾¹¤H/¾÷¾¹¤â
+
+Mechanical gripper ¾÷¾¹§¨¤ö
+
+festo mechanical hand FESTOÉó±ñ¤â
+gripper selection software §¨¤ö¿ï¾Ü³n¥ó
+ºô¯¸: https://www.festo.com/cms/nl-be_be/9767_12353.htm
+
+ºô¯¸: https://schunk.com/se_en/greifsysteme/#/
+SCHUNK: ¶¯§J:
+1.Modular and Mobile ripping Systems ¼Ò²Õ©M²¾??§v¨t?
+2.Gripping Meets Industry 4.0 §ì¦í²£·~4.0
+
+Precision End Effectors ºë±K¥½ºÝ·PÀ³¾¹
+
+WAFER GRIPPERS ´¹¶ê§¨¤ö
+Fig. 1 Overview of the four investigated wafer grippers. The upper left image presents the Bernoulli gripper, the upper right image the area gripper. In the bottom row each image shows one of four suction pads belonging to the investigated flat suction pad gripper (left) and the bellows suction pad gripper (right).
+?1¥|?¬ã¨sªº´¹¤ù?¨ãªº·§­z¡C ¥ª¤W?¹³§e?¤F§B§V§Q?¤l¡A¥k¤W?¹³¬O?°ì?¤l¡C ¦b©³³¡¡A¨C??¹³?¥Ü?¤_¬ã¨sªº¥­­±§l??«ù¾¹¡]¥ª¡^©Mªi?ºÞ§l??«ù¾¹¡]¥k¡^ªº¥|?§l?¤¤ªº¤@?¡C
+
+(Sebastian Noldet al., INVESTIGATIONS ON THE IMPACT OF WAFER GRIPPERS ON OPTICAL AND ELECTRICAL PROPERTIES OF ALKALINE TEXTURED AND A-SI PASSIVATED SURFACES)
+¡]Sebastian Noldetµ¥¤H¡A¡§¼v??ÖÃ¾¹??©Ê?²z©MA-SI?¤Æªí­±ªº¥ú?©M??©Ê?ªº¼v?¡¨
+
+Precision Vacuum Pads ºë±K¯uªÅ¹Ô
+ºô¯¸:
+http://www.google.com.tw/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCOvtkpPDycgCFUaVlAodJiQHyg&url=http%3A%2F%2Fwww.gibsonengineering.com%2Fproducts%2Fnumatics%2Fnumatics-vacuum-products%2F&psig=AFQjCNGxk1ERZ2wkZB6xIABg19TcRJ_Y3A&ust=1445171428577343
+http://www.google.com.tw/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCNOhm_jBycgCFUaclAodz74FrQ&url=http%3A%2F%2Fwww.uniontech-vacuum.com%2Fproduct%2Fpro_detail.php%3Fcid%3D34%26cid_pr%3D34%26pid%3D127%26cname%3DVG-Series%2520(Vacuum%2520Gripper)&psig=AFQjCNGxk1ERZ2wkZB6xIABg19TcRJ_Y3A&ust=1445171428577343
+http://www.google.com.tw/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCI7X9PuEycgCFQUmlAodIAQL4Q&url=http%3A%2F%2Fnews.thomasnet.com%2Fnews%2FRobotics%2FAccessories%2Frobotic-grippers%3Fpg%3D4&psig=AFQjCNGj4jjevSzGd9sUj3MSXp_FzkaLLg&ust=1445154946932006
+http://www.google.com.tw/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCPvc4arAycgCFQyRlAod3ogB9g&url=http%3A%2F%2Fwww.schmalz.com%2Fprodukte%2Fvakuumgreifsysteme%2Fspz%2F&psig=AFQjCNFdbwmQDzIikvq4WNl_S835wpvH8Q&ust=1445171087852499
+
+Medical Bernoulli Gripper ??§B§V§Q§ì¤â
+(Left) Leather gripper with an integrated cone. The figure is adapted from Dini (2009). (Right) Top: Detail of leather gripper with cone and Venturi channels. Bottom: The cone and the gripper face with radial Venturi channels. The figures are adapted from Dini (2009).
+¡]¥ª¡^¨ã¦³¶°¦¨?Ê^ªº¥Ö­²?¨ã¡C ??¦r?¦ÛDini¡]2009¡^¡C ¡]¥k¡^?³¡¡G¨ã¦³?§Î©M¤å¥C¨½³q¹Dªº¥Ö­²?¨ãªº??¡C ©³³¡¡G?Ê^©M?¨ã­±ÉO?¦V¤å¥C¨½³q¹D¡C ?¦r§ï?¦ÛDini¡]2009¡^¡C
+(M.H.T.M. Trommelen, Development of a medical Bernoulli gripper)
+
+Improved Bernoulli Grippers §ï?ªº§B§V§Q??
+Robot Uses Supersonic Jets of Air to Stick to Almost Anything (http://spectrum.ieee.org/automaton/robotics/industrial-robots/robot-uses-supersonic-jets-of-air-to-stick-toalmost-anything) An Investigation into Improved Non-Contact Adhesion Mechanism Suitable for Wall Climbing Robotic Applications
+Éó¾¹¤H¨Ï¥Î¶W­µ³t?ÉaÉó«O«ù¤L¥G¥ô¦ó?¦è¡]http://spectrum.ieee.org/automaton/robotics/industrial-robots/robot-uses-supersonic-jets-of-air-to-stick-toalmost-anything¡^ §ï?«D±µàDÖß¦XÉó²zªº¬ã¨sÓì¥Î¤_?Ê^ª¦¤ÉÉó¾¹¤H?¥Î
+ºô¯¸: http://spectrum.ieee.org/automaton/robotics/industrial-robots/robot-uses-supersonic-jets-of-air-to-stick-to-almost-anything
+
+"Jamming" Robot Gripper ¡§¤zÊð¡¨Éó¾¹¤H§ì¤ö
+http://www.hizook.com/blog/2010/10/25/jamming-robot-gripper-gets-official-article-published-pnas
+
+Adaptive gripper based on FESTO FinGripper fingers °ò¤_FESTO FinGripper¤â«üªº¦ÛÓì??¨ã
+²Ä14­¶ ¥ý¨ì³o
+
+17­¶
+ New Underactuated Robot Hands from Lacquey and Willow Garage
+(http://www.hizook.com/blog/2012/12/05/new-underactuated-robothands-lacquey-and-willow-garage)
+Robot Uses Supersonic Jets of Air to Stick to Almost Anything
+(http://spectrum.ieee.org/automaton/robotics/industrial-robots/robotuses-supersonic-jets-of-air-to-stick-to-almost-anything)
+http://argosysrobotics.cn/fingergripper.html
+OGGB Bernoulli grippers
+http://www.se.schunk.com/
+https://www.festo.com/cms/nl-be_be/9767_12353.htm
+
+Practices (½Òµ{½m²ß)
+¦¸¥@¥N­±ªO¼t8.5¥N½u¥H¤W¡A¬Á¼þ°òªO¤Ø¤o¬° 2,200¢®2,500mm2¡A«p«×¬°0.7mm¡A½Ð¨Ì¦¹ ³W®æ³]­p¤@²z·Q¤§§¨¨ã¡A¥i¥H¶i¦æ¬Á¼þ°òªO ¤§§¨«ù»PÂ½Âà¡G ƒÞ°Ñ¦Ò½Òµ{½m²ß¤§°Ñ¦Ò¸ê®Æ¡A§¹¦¨¤U¦C¤u§@¡G
+1.¹s¥ó¹Ï»P²Õ¦X¹Ï
+2.°Êµe¼ÒÀÀ
+3.¹s¥óªí(§t¦U¿ï¥Î¹s¥ó½s¸¹)
+4.³ø§i¹q¤lÀÉ

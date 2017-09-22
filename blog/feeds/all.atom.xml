@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-08-24T02:14:00+08:00</updated><entry><title>夾持物品的種類</title><link href="./Gripper%20species.html" rel="alternate"></link><published>2017-08-24T02:14:00+08:00</published><updated>2017-08-24T02:14:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-24:./Gripper species.html</id><summary type="html">&lt;p&gt;各種夾爪的內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-09-22T19:40:00+08:00</updated><entry><title>真空產生器-微動開關</title><link href="./vacuumGenerator-microSwitch.html" rel="alternate"></link><published>2017-09-22T19:40:00+08:00</published><updated>2017-09-22T19:40:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-22:./vacuumGenerator-microSwitch.html</id><summary type="html">&lt;p&gt;了解真空產生器上的微動開關&lt;/p&gt;
+
+
+&lt;!-- 主要介紹微動開關 --&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;名稱: RVA-10-SJ&lt;/h2&gt;
+&lt;p&gt;&lt;img src="./../data/真空產生器-微動開關/RVA-10-SJ.png" width="700" hspace="50"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;1.真空產生器功用:&lt;/h2&gt;
+&lt;p&gt;&lt;h4&gt;真空產生器的觸動桿子(如下圖.a-1)會觸動微動開關(如下圖.a-2)&lt;/h4&gt;
+&lt;img src="./../data/真空產生器-微動開關/觸動桿.png" width="700" hspace="50"&gt;&lt;br&gt;
+&lt;h4 align="center"&gt;圖.a-1&lt;/h4&gt;
+&lt;p&gt;
+&lt;img src="./../data/真空產生器-微動開關/桿子啟動開關.png" width="700" hspace="50"&gt;&lt;br&gt;
+&lt;h4 align="center"&gt;圖.a-2&lt;/h4&gt;
+&lt;p&gt;
+&lt;h4&gt;目前&lt;font style="background-color:#FFFF33"&gt;還不知道&lt;/font&gt;如何推動軸,只能確定軸會推動桿子,因而啟動微動開關.&lt;br&gt;
+下方介紹微動開關說明&lt;/h4&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;2.微動開關說明:&lt;/h2&gt;
+&lt;p&gt;&lt;h4&gt;沒按下彈簧片,會形成斷路,所以LED不會通電發亮 (如下圖.b-1)&lt;/h4&gt;
+&lt;img src="./../data/真空產生器-微動開關/沒按下斷路.png" width="700" hspace="50"&gt;&lt;br&gt;
+&lt;h4 align="center"&gt;圖.b-1&lt;/h4&gt;
+&lt;p&gt;
+&lt;h4&gt;按下彈簧片,會形成通路,所以LED會通電發亮(如下圖.b-2)&lt;/h4&gt;
+&lt;img src="./../data/真空產生器-微動開關/按下接通.png" width="700" hspace="50"&gt;&lt;br&gt;
+&lt;h4 align="center"&gt;圖.b-2&lt;/h4&gt;
+&lt;p&gt;
+&lt;h4&gt;內部構造(如下圖.b-3)&lt;/h4&gt;
+&lt;img src="./../data/真空產生器-微動開關/內部構造.png" width="500" hspace="175"&gt;&lt;br&gt;
+&lt;h4 align="center"&gt;圖.b-3&lt;/h4&gt;
+&lt;p&gt;
+&lt;h4&gt;微動開關就像按鈕一樣,按下時電流會流通,放開時會形成斷路&lt;br&gt;
+下方為結論&lt;/h4&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;3.結論:&lt;/h2&gt;
+&lt;p&gt;&lt;h4&gt;所以當&lt;font style="background-color:#FFFF33"&gt;氣壓驅動真空產生器就會啟動彈簧片(為個人猜測)&lt;/font&gt;,這時線路(黃線和綠線)就會接通電流&lt;/h4&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;4.注意:&lt;/h2&gt;
+&lt;p&gt;&lt;h4&gt;因為微動開關電線太粗(Arduino孔會損壞),所以要使用接線器,再轉到Arduino上&lt;/h4&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;iframe width="560" height="315" src="./../data/123.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="vacuumGenerator"></category><category term="microSwitch"></category></entry><entry><title>夾持物品的種類</title><link href="./Gripper%20species.html" rel="alternate"></link><published>2017-08-24T02:14:00+08:00</published><updated>2017-08-24T02:14:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-24:./Gripper species.html</id><summary type="html">&lt;p&gt;各種夾爪的內容&lt;/p&gt;
 
 
 &lt;!-- 各種夾爪的內容 --&gt;
+
+&lt;hr&gt;
 
 &lt;h3&gt;friction gripper 摩擦夾爪:&lt;/h3&gt;
 &lt;p&gt;macro meso micro&lt;br&gt;
@@ -119,6 +169,8 @@
 影片: &lt;br&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3OjhoVuAQkQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Gripper species"></category></entry><entry><title>資訊</title><link href="./Information.html" rel="alternate"></link><published>2017-08-16T18:04:00+08:00</published><updated>2017-08-16T18:04:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-16:./Information.html</id><summary type="html">&lt;p&gt;了解夾爪&lt;/p&gt;
 
+
+&lt;hr&gt;
 
 &lt;h2&gt;基本說明:&lt;/h2&gt;
 &lt;p&gt;網站: &lt;a href="http://www.booster-machine.com/article_detail_18.htm"&gt;http://www.booster-machine.com/article_detail_18.htm&lt;/a&gt;&lt;/p&gt;

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>真空產生器-微動開關 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./vacuumGenerator-microSwitch.html">
+
+        <meta name="author" content="40423222" />
+        <meta name="keywords" content="vacuumGenerator,microSwitch" />
+        <meta name="description" content="了解真空產生器上的微動開關" />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="真空產生器-微動開關"/>
+        <meta property="og:url" content="./vacuumGenerator-microSwitch.html"/>
+        <meta property="og:description" content="了解真空產生器上的微動開關"/>
+        <meta property="article:published_time" content="2017-09-22" />
+            <meta property="article:section" content="Gripper" />
+            <meta property="article:tag" content="vacuumGenerator" />
+            <meta property="article:tag" content="microSwitch" />
+            <meta property="article:author" content="40423222" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/gripper.html">Gripper</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./vacuumGenerator-microSwitch.html"
+                       rel="bookmark"
+                       title="Permalink to 真空產生器-微動開關">
+                        真空產生器-微動開關
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-09-22T19:40:00+08:00"> Fri 22 September 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/vacuumgenerator.html">vacuumGenerator</a>
+        /
+	<a href="./tag/microswitch.html">microSwitch</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>了解真空產生器上的微動開關</p>
+
+
+<!-- 主要介紹微動開關 -->
+
+<hr>
+
+<h2>名稱: RVA-10-SJ</h2>
+<p><img src="./../data/真空產生器-微動開關/RVA-10-SJ.png" width="700" hspace="50"></p>
+<hr>
+
+<h2>1.真空產生器功用:</h2>
+<p><h4>真空產生器的觸動桿子(如下圖.a-1)會觸動微動開關(如下圖.a-2)</h4>
+<img src="./../data/真空產生器-微動開關/觸動桿.png" width="700" hspace="50"><br>
+<h4 align="center">圖.a-1</h4>
+<p>
+<img src="./../data/真空產生器-微動開關/桿子啟動開關.png" width="700" hspace="50"><br>
+<h4 align="center">圖.a-2</h4>
+<p>
+<h4>目前<font style="background-color:#FFFF33">還不知道</font>如何推動軸,只能確定軸會推動桿子,因而啟動微動開關.<br>
+下方介紹微動開關說明</h4></p>
+<hr>
+
+<h2>2.微動開關說明:</h2>
+<p><h4>沒按下彈簧片,會形成斷路,所以LED不會通電發亮 (如下圖.b-1)</h4>
+<img src="./../data/真空產生器-微動開關/沒按下斷路.png" width="700" hspace="50"><br>
+<h4 align="center">圖.b-1</h4>
+<p>
+<h4>按下彈簧片,會形成通路,所以LED會通電發亮(如下圖.b-2)</h4>
+<img src="./../data/真空產生器-微動開關/按下接通.png" width="700" hspace="50"><br>
+<h4 align="center">圖.b-2</h4>
+<p>
+<h4>內部構造(如下圖.b-3)</h4>
+<img src="./../data/真空產生器-微動開關/內部構造.png" width="500" hspace="175"><br>
+<h4 align="center">圖.b-3</h4>
+<p>
+<h4>微動開關就像按鈕一樣,按下時電流會流通,放開時會形成斷路<br>
+下方為結論</h4></p>
+<hr>
+
+<h2>3.結論:</h2>
+<p><h4>所以當<font style="background-color:#FFFF33">氣壓驅動真空產生器就會啟動彈簧片(為個人猜測)</font>,這時線路(黃線和綠線)就會接通電流</h4></p>
+<hr>
+
+<h2>4.注意:</h2>
+<p><h4>因為微動開關電線太粗(Arduino孔會損壞),所以要使用接線器,再轉到Arduino上</h4></p>
+<hr>
+
+<iframe width="560" height="315" src="./../data/123.mp3" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./vacuumGenerator-microSwitch.html">
+                            真空產生器-微動開關
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./Gripper species.html">
+                            夾持物品的種類
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./Information.html">
+                            資訊
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/gripper.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Gripper
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
